@@ -1,8 +1,9 @@
+## Explore US Bikeshare Data
+This is the repository for my python project "Explore US Bikeshare Data" as part of Udacity's "Programming for Data Science" nanodegree program.
+
 ### Date created
 Include the date you created this project and README file.
 
-### Project Title
-Replace the Project Title
 
 ### Description
 Describe what your project is about and what it does
