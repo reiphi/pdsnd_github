@@ -10,3 +10,6 @@ This project and the README file have been created on December 2nd, 2018.
 
 ### Credits
 Thanks to Udacity for preparing the great python template for the project.
+
+### Required software
+This code is designed for Python 3.6.
