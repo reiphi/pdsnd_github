@@ -3,9 +3,10 @@ This is the repository for my python project "Explore US Bikeshare Data" as part
 
 This project and the README file have been created on December 2nd, 2018.
 
-### Files used
-Include the files used
+### Files
+* bikeshare.py (the code)
+* README.md (this readme)
+* .gitignore (including the csv data files)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thanks to Udacity for preparing the great python template for the project.
