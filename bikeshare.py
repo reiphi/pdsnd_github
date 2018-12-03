@@ -8,6 +8,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
 
+def line_separator():
+    """Prints line separator."""
+    print('-'*40)
 
 def get_filters():
     """
@@ -43,7 +46,7 @@ def get_filters():
     else:
         print('OK, so you will get information from {}.\n'.format(day.title()))
 
-    print('-'*40)
+    line_separator()
     return city, month, day
 
 
@@ -91,7 +94,7 @@ def load_data(city, month, day):
         raw_data_counter += 1
         see_raw_data = input('\nWould you like to see five more rows (yes, no with any other answer)?\n').lower()
 
-    print('-'*40)
+    line_separator()
     return df
 
 
@@ -119,7 +122,7 @@ def time_stats(df, month, day):
         print('The most common start hour is {} am.'.format(most_common_start_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    line_separator()
 
 
 def station_stats(df):
@@ -141,7 +144,7 @@ def station_stats(df):
     print('The most frequent combination of start station and end station trip is {}.'.format(most_common_combination))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    line_separator()
 
 
 def trip_duration_stats(df):
@@ -159,7 +162,7 @@ def trip_duration_stats(df):
     print('The average travel time is {}.'.format(average_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    line_separator()
 
 
 def user_stats(df):
@@ -192,7 +195,7 @@ def user_stats(df):
         print('Sorry, no birth year data available.\n')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    line_separator()
 
 
 def main():
