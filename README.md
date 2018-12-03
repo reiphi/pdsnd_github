@@ -13,3 +13,6 @@ Thanks to Udacity for preparing the great python template for the project.
 
 ### Required software
 This code is designed for Python 3.6.
+
+### Known bugs
+So far none :blush:
